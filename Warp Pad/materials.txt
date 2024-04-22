@@ -1,0 +1,102 @@
+BaseMat_v
+=========
+  Textures:
+    - Base
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 180
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 255, 255, 0
+    - 0, 0, 0, 368
+
+
+
+LensMat
+=======
+  Textures:
+    - Lens
+    - GlaSphereRefLight3
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 180, 116, 0, 180
+
+  Material Colors:
+    - 204, 204, 204, 255
+    - 204, 204, 204, 255
+
+  Color Registers:
+    - 0, 0, 0, 255
+    - 0, 0, 0, 368
+
+
+
+LightMat_v
+==========
+  Textures:
+    - AppearLight
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 39, 0, 0, 255
+
+  Material Colors:
+    - 204, 204, 204, 255
+    - 204, 204, 204, 255
+
+  Color Registers:
+    - 0, 0, 0, 255
+
+
+
+MetalMat_v
+==========
+  Textures:
+    - MetalPipe
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 44, 48, 45, 158
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 70, 80, 100, 255
+    - 0, 0, 0, 368
+
+
+
+MetalMat_v(2)
+=============
+  Textures:
+    - MetalPipe
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 108, 108, 82, 158
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 12, 81, 0, 97
+    - 0, 0, 0, 368

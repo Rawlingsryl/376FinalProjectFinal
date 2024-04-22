@@ -1,0 +1,134 @@
+OrangeRock_v
+============
+  Textures:
+    - Rock02
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 45
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 254, 254, 254, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = ((254, 254, 254) * (vertex RGB)), multiply by 2
+         A = (lerp from 45 to 0 using (vertex A)), multiply by 2
+    2: RGB = ((prev. RGB) * (tex #1 RGB)), then add (prev. A)
+         A = ((vertex A) * (tex #1 A))
+
+
+
+lambert26_v
+===========
+  Textures:
+    - Z_RockA
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 40, 0, 0, 100
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 254, 254, 210, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = (lerp from (40, 0, 0) to (254, 254, 210) using (vertex RGB))
+         A = (lerp from 100 to 0 using (vertex A)), multiply by 2
+    2: RGB = ((prev. RGB) * (tex #1 RGB)), then add (prev. A)
+         A = ((vertex A) * (tex #1 A))
+
+
+
+lambert27_v
+===========
+  Textures:
+    - Z_RockA
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 13, 8, 0, 100
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 250, 194, 121, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = (lerp from (13, 8, 0) to (250, 194, 121) using (vertex RGB))
+         A = (lerp from 100 to 0 using (vertex A)), multiply by 2
+    2: RGB = ((prev. RGB) * (tex #1 RGB)), then add (prev. A)
+         A = ((vertex A) * (tex #1 A))
+
+
+
+lambert2_v
+==========
+  Textures:
+    - SandNormal
+        Offset: 0, -0.03333333507180214
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 180
+    - 48, 45, 28, 255
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 178, 165, 161, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = (lerp from (178, 165, 161) to (tex #1 RGB) using (vertex RGB)), subtract 127, multiply by 2
+         A = (lerp from 180 to 0 using (vertex A)), multiply by 2
+    2: RGB = (prev. RGB), then add (prev. A)
+         A = (vertex A)
+
+
+
+lambert4_v
+==========
+  Textures:
+    - Z_RockA
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 25, 0, 0, 100
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 230, 165, 0
+    - 0, 0, 0, 368
+
+  Steps:
+    1: RGB = (lerp from (25, 0, 0) to (255, 230, 165) using (vertex RGB))
+         A = (lerp from 100 to 0 using (vertex A)), multiply by 2
+    2: RGB = ((prev. RGB) * (tex #1 RGB)), then add (prev. A)
+         A = ((vertex A) * (tex #1 A))

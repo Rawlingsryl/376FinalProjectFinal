@@ -1,0 +1,47 @@
+BodyMat_v
+=========
+  Textures:
+    - FileSelectDataYoshi
+
+  Ambient Colors:
+    - 64, 64, 64, 128
+
+  Constant Colors:
+    - 255, 255, 255, 9
+
+  Color Registers:
+    - 0, 0, 0, -110
+    - 0, 0, 0, 52
+
+  Steps:
+    1: RGB = (vertex RGB)
+         A = (lerp from (tex #1 A) to 52 using (vertex A)), then add -110, multiply by 4
+    2: RGB = ((vertex RGB) * (prev. A)), then add (prev. RGB)
+         A = 255
+    3: RGB = ((tex #1 RGB) * (vertex RGB)), then add (prev. RGB), multiply by 2
+         A = ((tex #1 A) * 64), then add (prev. A), add 127
+
+
+
+EyeMat_v
+========
+  Textures:
+    - FileSelectDataYoshiEye.0
+
+  Ambient Colors:
+    - 64, 64, 64, 128
+
+  Constant Colors:
+    - 255, 255, 255, 9
+
+  Color Registers:
+    - 0, 0, 0, -110
+    - 0, 0, 0, 52
+
+  Steps:
+    1: RGB = (vertex RGB)
+         A = (lerp from (tex #1 A) to 52 using (vertex A)), then add -110, multiply by 4
+    2: RGB = ((vertex RGB) * (prev. A)), then add (prev. RGB)
+         A = 255
+    3: RGB = ((tex #1 RGB) * (vertex RGB)), then add (prev. RGB), multiply by 2
+         A = ((tex #1 A) * 64), then add (prev. A), add 127

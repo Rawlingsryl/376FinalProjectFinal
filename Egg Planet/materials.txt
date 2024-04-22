@@ -1,0 +1,42 @@
+blinn1_v
+========
+  Textures:
+    - EggHigh
+        Offset: 0.9521484375, 0.205078125
+        Scale: 2.6025390625, 2.6025390625
+
+  Ambient Colors:
+    - 70, 135, 223, 182
+
+  Constant Colors:
+    - 7, 12, 6, 135
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 173, 165, 141, 0
+    - -142, 0, 0, 368
+
+
+
+lambert4_v
+==========
+  Textures:
+    - Grasses001HighColorLoop02LightGray
+        Scale: 5.1220703125, 5.1220703125
+    - EggHigh
+        Scale: 5.205078125, 5.205078125
+
+  Ambient Colors:
+    - 70, 135, 223, 182
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 28, 35, 20, -73
+    - 0, 4, 6, 687
+    - 255, 255, 255, 485

@@ -1,0 +1,60 @@
+lambert5_v
+==========
+  Textures:
+    - rock05S
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 100
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 222, 255, 242, 0
+    - 0, 0, 0, 368
+
+
+
+lambert8_v
+==========
+  Textures:
+    - kz_WallRock_uri002_mm
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 100
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 200, 222, 200, 0
+    - 0, 0, 0, 368
+
+
+
+lambert9_v
+==========
+  Textures:
+    - kz_WallRock_uri003_mm
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 100
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 182, 206, 190, 0
+    - 0, 0, 0, 368

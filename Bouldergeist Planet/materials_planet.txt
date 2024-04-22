@@ -1,0 +1,81 @@
+lambert4_v
+==========
+  Textures:
+    - Z_isiblock01
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 100
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 222, 255, 242, 0
+    - 0, 0, 0, 368
+
+
+
+lambert5_v
+==========
+  Textures:
+    - rock05S
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 100
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 222, 255, 242, 0
+    - 0, 0, 0, 368
+
+
+
+lambert6_v
+==========
+  Textures:
+    - TeresaBrokenWall
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 100
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 173, 210, 173, 0
+    - 0, 0, 0, 368
+
+
+
+lambert7_v
+==========
+  Textures:
+    - saku
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 0, 0, 80
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 137, 153, 137, 0
+    - 0, 0, 0, 368

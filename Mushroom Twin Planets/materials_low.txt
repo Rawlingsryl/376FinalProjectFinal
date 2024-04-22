@@ -1,0 +1,34 @@
+HedgeLeef_v
+===========
+  Textures:
+    - Lowgras02
+        Scale: 2, 2
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Material Colors:
+    - 204, 204, 204, 255
+    - 204, 204, 204, 255
+
+  Color Registers:
+    - 117, 117, 117, -53
+    - 8, 12, 48, -5
+
+
+
+Wood_v
+======
+  Textures:
+    - Lowwood05
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Material Colors:
+    - 204, 204, 204, 255
+    - 204, 204, 204, 255
+
+  Color Registers:
+    - 109, 109, 109, -35
+    - 4, 6, 2, 255

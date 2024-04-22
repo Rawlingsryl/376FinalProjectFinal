@@ -1,0 +1,100 @@
+EdgeMat_v
+=========
+  Textures:
+    - OrbitEdge
+        Offset: 0, -1
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 213, 205, 255
+
+  Material Colors:
+    - 255, 255, 0, 255
+    - 255, 255, 0, 255
+
+  Color Registers:
+    - 4, 8, 24, 255
+
+  Steps:
+    1: RGB = (lerp from (0, 213, 205) to (4, 8, 24) using (tex #1 RGB))
+         A = ((tex #1 A) * (vertex A))
+
+
+
+GreenPlanetMat_v
+================
+  Textures:
+    - AuroraGround
+        Offset: 0, 0.3614000082015991
+    - AuroraCloud
+        Offset: 0, 2.584199905395508
+        Scale: 3, 1.2999999523162842
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 151, 240, 255
+    - 0, 43, 56, 255
+
+  Color Registers:
+    - 0, 0, 0, 255
+
+  Steps:
+    1: RGB = (lerp from (0, 151, 240) to (tex #1 RGB) using (vertex RGB)), subtract 127
+         A = ((tex #1 A) * (vertex A))
+    2: RGB = (lerp from (0, 43, 56) to (vertex RGB) using (tex #2 RGB)), then add (prev. RGB), divide by 2
+         A = (vertex A)
+
+
+
+UniMat_v
+========
+  Textures:
+    - AuroraStar
+        Scale: 1.2999999523162842, 1.2999999523162842
+        Rotation: 0.11227759636219367
+    - AuroraB
+        Offset: 0.5020502209663391, 0
+        Scale: 0.699999988079071, -1.005859375
+    - B_Numa3
+        Offset: -2.0939998626708984, -2.0939998626708984
+        Scale: 2.0361328125, 0.10000000149011612
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 25, 50, 255
+    - 8, 168, 144, 255
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB)), then add (0, 25, 50)
+         A = ((tex #1 A) * (vertex A))
+    2: RGB = (lerp from (8, 168, 144) to (tex #2 RGB) using (vertex RGB)), then add (prev. RGB)
+         A = (vertex A)
+
+
+
+auroraBMat_v
+============
+  Textures:
+    - AuroraA
+        Offset: 0.4740474224090576, 0
+        Scale: 6, 0.8999999761581421
+    - B_Numa3
+        Offset: -0.05799999460577965, 0.05799999460577965
+        Scale: 10, 0
+
+  Ambient Colors:
+    - 100, 100, 100, 195
+
+  Constant Colors:
+    - 0, 116, 0, 255
+    - 133, 189, 255, 255
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB)), then add (0, 116, 0), subtract 127
+         A = ((tex #1 A) * (vertex A))

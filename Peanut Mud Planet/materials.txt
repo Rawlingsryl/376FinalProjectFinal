@@ -1,0 +1,65 @@
+MudMat_v
+========
+  Textures:
+    - PeanutMud
+    - IndBend_LiquidSS
+        Offset: 0, 0.9299999475479126
+        Scale: 1, 3
+    - PeanutMudHiLight
+
+  Ambient Colors:
+    - 128, 128, 128, 200
+
+  Constant Colors:
+    - 0, 54, 84, 180
+    - 118, 104, 32, 255
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 255, 255, 0
+    - 0, 0, 0, 368
+
+
+
+PeanutGrass_v
+=============
+  Textures:
+    - PeanutRock
+
+  Ambient Colors:
+    - 128, 128, 128, 200
+
+  Constant Colors:
+    - 0, 0, 0, 180
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 255, 255, 0
+    - 0, 0, 0, 368
+
+
+
+StoneMat_v
+==========
+  Textures:
+    - EdenConcrete
+
+  Ambient Colors:
+    - 128, 128, 128, 200
+
+  Constant Colors:
+    - 0, 0, 0, 180
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Color Registers:
+    - 255, 255, 255, 0
+    - 0, 0, 0, 368
